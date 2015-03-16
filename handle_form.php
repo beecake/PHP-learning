@@ -9,6 +9,7 @@
 <?php // Script 3.4 handle_form.php #2
 
 ini_set ('display_errors', 1); //Let me learn from my mistakes!
+error_reporting (E_ALL | E_STRICT); //Show all possible problems!
 
 // This page receives data from feedback.html.
 // It will receive: title, name, email, response, comments, and submit in $_POST.
