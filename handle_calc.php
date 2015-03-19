@@ -42,7 +42,7 @@ $monthly = $total / $payments;
 print "<p>You have selected to purchase:<br />
 <span class=\"number\">$quantity </span> widget(s) at <br />
 $<span class=\"number\">$price</span> price each plus a <br />
-$<span class=\"number\">shipping </span> shipping cost and a <br />
+$<span class=\"number\">$shipping </span> shipping cost and a <br />
 <span class=\"number\">$tax</span> percent tax rate.<br />
 After your $<span class=\"number\"> $discount</span> discount, the total cost is
 $<span class=\"number\">$total </span>.<br />
