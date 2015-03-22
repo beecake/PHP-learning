@@ -47,7 +47,7 @@ $<span class=\"number\">$shipping</span>shipping cost and a <br />
 <span class=\"number\">$tax</span> percenttax rate.<br />
 After your $<span class=\"number\">$discount</span> discount, the total cost is
 $<span class=\"number\">$total</span>.<br />
-Divided over <span class=\"number\">$payments</span> monthly payments, that would be $<span class=\"number\">$monthly<\span> each.</p>";
+Divided over <span class=\"number\">$payments</span> monthly payments, that would be $<span class=\"number\">$monthly <\span> each.</p>";
 
 ?>
 </body>
