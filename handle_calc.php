@@ -9,7 +9,7 @@
 </style>
 </head>
 <body>
-<?php // Script 4.2 = handle_calc.php
+<?php // Script 4.3 = handle_calc.php #2
 /* This script takes values from calculator.html and performs
 total cost and monthly payment calculations. */
 
@@ -37,6 +37,10 @@ $total = $total * $taxrate;
 
 // Calculate the monthly payments:
 $monthly = $total / $payments;
+
+// Apply the proper formatting:
+$total = number_format ($total, 2);
+$monthly = number_format ($monthly, 2);
 
 // Print out the results:
 print "<p>You have selected to purchase:<br />
